@@ -1,19 +1,22 @@
 {
-  "name": "schemaify-object",
+  "name": "js-object-schema",
   "version": "0.1.0",
-  "description": "",
+  "description": "Advanced schema validation for JS Objects.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --ui bdd --bail --colors ./tests/**/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamdevonbutler/schemaify-object.git"
+    "url": "git+https://github.com/iamdevonbutler/js-object-schema.git"
   },
   "author": "Jay Pescione <jpescione@gmail.com> (https://github.com/iamdevonbutler)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iamdevonbutler/schemaify-object/issues"
+    "url": "https://github.com/iamdevonbutler/js-object-schema/issues"
   },
-  "homepage": "https://github.com/iamdevonbutler/schemaify-object#readme"
+  "homepage": "https://github.com/iamdevonbutler/js-object-schema#readme",
+  "engines": {
+    "node": ">=9.0.0"
+  }
 }
